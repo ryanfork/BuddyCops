@@ -27,27 +27,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Team Buddy Cops</a>
+          <a class="navbar-brand" href="Home.html">Team Buddy Cops</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="about.html">About</a></li>
-            <li><a href="http://blog.ryanfork.com">Blog</a></li>
-            <!--<li><a href="development.html">Development</a></li>-->
-            <li><a href="resume.html">Resume</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="contact.php">Contact</a></li>
-                <!--
-                <li><a href="full-width.html">Full Width Page</a></li>
-                <li><a href="sidebar.html">Sidebar Page</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="404.html">404</a></li>
-                <li><a href="pricing.html">Pricing Table</a></li>-->
-              </ul>
+            <li class="active"><a href="officer_main.html">Officer Home</a></li>
+            <li><a href="view_tickets.html">View Issued Tickets</a></li>
+            <li><a href="new_ticket.html">New Ticket</a></li>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -57,29 +45,36 @@
     <div class="container">
     <center>
 
-    <h3>Issue New Ticket</h3>
-
-      <form>
-        Drivers License Number: <br /> <input type="text" name="infraction">
-        <br /><br />
-        License Plate Number: <br /> <input type="text" name="infraction">
-        <br /><br />
-        Last Name: <br /> <input type="text" name="infraction">
-      </form>
-
-      <br />
-      <br />
+    <h2>Viewing Issued Tickets</h2>
 
       <div class="row">
         <center>
-          <button type="button" class="btn btn-default btn-lg">
+          <button type="button" class="btn btn-default btn-lg" onClick="window.location.href='Home.html'">
             Home
           </button>
 
-          &nbsp; &nbsp; &nbsp;
+          <br />
+          <br />
 
-          <button type="button" class="btn btn-default btn-lg">
-            Get Details
+          <h4>11/8/2013 @ 1:55pm - Speeding</h4>
+          <button type="button" class="btn btn-default btn-lg" onClick="window.location.href='info.html'">
+            Get More Details
+          </button>
+
+          <br />
+          <br />
+
+          <h4>11/7/2013 @ 6:02pm - Moving Violation</h4>
+          <button type="button" class="btn btn-default btn-lg" onClick="window.location.href='info.html'">
+            Get More Details
+          </button>
+
+          <br />
+          <br />
+          
+          <h4>11/7/2013 @ 12:27pm - Speeding</h4>
+          <button type="button" class="btn btn-default btn-lg" onClick="window.location.href='info.html'">
+            Get More Details
           </button>
 
           </center>
@@ -92,7 +87,7 @@
       <footer>
         <div class="row">
           <div class="col-lg-12">
-            <center><p>Copyright &copy; Ryan Fork 2013</p></center>
+            <center><p>Copyright &copy; Team Buddy Cops 2013</p></center>
           </div>
         </div>
       </footer>
